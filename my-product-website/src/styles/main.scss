@@ -1,0 +1,41 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2c3e50;
+$font-stack: Arial, sans-serif;
+
+// Reset some default styles
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  color: $secondary-color;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+.product {
+  &-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  &-description {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  &-image {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "my-product-website",
+  "version": "1.0.0",
+  "description": "A basic website to present a product",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server",
+    "sass": "node-sass -w src/styles -o dist/styles"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1"
+  }
+}
